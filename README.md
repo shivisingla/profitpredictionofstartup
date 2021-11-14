@@ -4,25 +4,10 @@ Startup_Profit_Prediction_App is a Machine Learning Based App which is based on 
 Cheers!!!  
 
 ## App Link: 
-https://startup-profit-prediction-app.herokuapp.com/
-
-## Project Level:
-Beginner
-
-## Data Source: 
-SuperDataScience
+https://startupprofitprediction.herokuapp.com/predict
 
 ## Built Using:
 1. Flask
 2. Scikit Learn
 3. HTML
 4. Bootstrap
-
-### Motivation: 
-Krish Naik Sir's ML Deployment Playlist 
-(https://www.youtube.com/watch?v=bjsJOl8gz5k&list=PLZoTAELRMXVOAvUbePX1lTdxQR8EY35Z1)
-
-### For More Info, Feel Free To Contact Me:
-Amit Karmakar
-Email: amitrcc2441@gmail.com
-
