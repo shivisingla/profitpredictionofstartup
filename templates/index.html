@@ -1,0 +1,43 @@
+{% extends 'base.html' %}
+
+{% block title %}
+<title> Home </title>
+{% endblock %}
+
+{% block body %}
+<main role="main">
+
+    <div>
+        <div class="bg-light p-5 rounded">
+            <div class="col-sm-8 mx-auto">
+                <h1 class="text-center"> Startup Profit Prediction App</h1>
+                <br>
+                <form action='/predict' method='POST'>
+                    <label for="RnD_Spend"> Research & Development Spend* ($) </label>
+                    <input class="form-control" type="text" name='RnD_Spend' id='RnD_Spend'
+                        placeholder="Example: 165349.2" aria-label="Example: 165349.2">
+                    <br>
+                    <label for="Administration">Administration* ($) </label>
+                    <input class="form-control" type="text" name='Administration' id='Administration'
+                        placeholder="Example: 136897.8" aria-label="Example: 136897.8">
+                    <br>
+                    <label for="Marketing_Spend">Marketing Spend* ($) </label>
+                    <input class="form-control" type="text" name='Marketing_Spend' id='Marketing_Spend'
+                        placeholder="Example: 471784.1" aria-label="Example: 471784.1">
+                    <br>
+                    <select class="form-select" aria-label="Default select example" name='state' id='state'>
+                        <option selected>Select State*</option>
+                        <option value="NewYork">New York</option>
+                        <option value="California">California</option>
+                        <option value="Florida">Florida</option>
+                    </select>
+                    <br>
+                    <input class="btn btn-success" type='submit' value='Predict Profit'>
+                </form>
+                <br>
+                <h3 class="text-center">Your Company's Predicted Profit is ${{ y_pred }}</h3>
+            </div>
+        </div>
+    </div>
+</main>
+{% endblock %}
