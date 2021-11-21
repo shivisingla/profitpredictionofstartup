@@ -13,6 +13,7 @@ Cheers!!!
 # InputImages
 <img src="https://github.com/shivisingla/profitpredictionofstartup/blob/main/1.JPG">
 <img src="https://github.com/shivisingla/profitpredictionofstartup/blob/main/2.JPG">
+
 # OutputImage
 <img src="https://github.com/shivisingla/profitpredictionofstartup/blob/main/3.JPG">
 
