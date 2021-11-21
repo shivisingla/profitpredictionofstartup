@@ -11,11 +11,11 @@ Cheers!!!
 <img src="https://github.com/shivisingla/profitpredictionofstartup/blob/main/Flowchart.png">
 
 # InputImages
-<img src="https://github.com/shivisingla/profitpredictionofstartup/blob/main/1.JPG">
-<img src="https://github.com/shivisingla/profitpredictionofstartup/blob/main/2.JPG">
+<img src="https://github.com/shivisingla/profitpredictionofstartup/blob/main/1.jpg">
+<img src="https://github.com/shivisingla/profitpredictionofstartup/blob/main/2.jpg">
 
 # OutputImage
-<img src="https://github.com/shivisingla/profitpredictionofstartup/blob/main/3.JPG">
+<img src="https://github.com/shivisingla/profitpredictionofstartup/blob/main/3.jpg">
 
 ## App Link generated from heroku: 
 https://startupprofitprediction.herokuapp.com/
